@@ -35,5 +35,5 @@ const handleServer = function (req, res) {
 const server = http.createServer(handleServer);
 
 server.listen(3000, function () {
-  console.log('Server on port 3000'.blue);
+  console.log(colors.blue('Server on port 3000'));
 });
